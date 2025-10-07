@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.blue-box {
+  width: 160px;
+  height: 120px;
+  background: lightblue;
+  border: 2px solid black;
+  position: relative;
+}
+
+
+.blue-box:first-child .orange-box {
+  width: 40px;
+  height: 40px;
+  background: orange;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+}
+
+.blue-box:last-child .orange-box {
+  width: 40px;
+  height: 40px;
+  background: orange;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.green-box {
+  width: 70px;
+  height: 70px;
+  background: lightgreen;
+  border: 2px solid black;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
