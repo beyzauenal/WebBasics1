@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 50px;
+}
+ 
+.blue {
+  position: relative;
+  background-color: rgb(71, 71, 201);
+  width: 200px;
+  height: 400px;
+}
+ 
+.black {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+}
+ 
+ 
+.blue .green {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+}
+ 
+ 
+.greens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: white;
+  border: 2px solid black;
+  width: 400px;
+  height: 80px;
+}
+ 
+ 
+.greens .green {
+  width: 40px;
+  height: 20px;
+  background-color: green;
+}
