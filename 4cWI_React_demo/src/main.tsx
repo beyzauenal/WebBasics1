@@ -7,7 +7,6 @@ import App from "./components/05_react/App.tsx";
 
 import "./index.css";
 
-
 ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 ).render(
