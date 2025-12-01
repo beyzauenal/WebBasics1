@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-//import App from "./components/02_react/App.tsx";
-import "./index.css";
-//import App from "./components/02_react/02.1_react/App.tsx";
+//05_react
 import App from "./components/05_react/App.tsx";
+//06_react
+//import App from "./components/06_react/App.tsx";
+
+import "./index.css";
 
 
 ReactDOM.createRoot(
