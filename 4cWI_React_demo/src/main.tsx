@@ -4,6 +4,8 @@ import ReactDOM from "react-dom/client";
 //import App from "./components/05_react/App.tsx";
 //06_react
 import App from "./components/06_react/App.tsx";
+//07_react
+//import App from "./components/07_react/App.tsx";
 
 import "./index.css";
 

@@ -10,7 +10,7 @@ export default function App() {
       <h1>Hello</h1>
       
 
-      {isOn && <div>It is on</div>}
+      {isOn ? <div>It is on</div> : <div>It is off</div>}
       {showSayHello && <div>Hello you</div>}
 
       <div className="absolute left-0 bottom-0 p-10 grid grid-rows-2 gap-2">
