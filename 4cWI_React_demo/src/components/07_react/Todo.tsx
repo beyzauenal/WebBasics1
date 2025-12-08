@@ -13,3 +13,4 @@ export default function Todo({ title, completed }: Props) {
         </div>
     );
 }
+
