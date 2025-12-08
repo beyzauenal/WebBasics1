@@ -5,9 +5,9 @@ import ReactDOM from "react-dom/client";
 //06_react
 //import App from "./components/06_react/App";
 //07_react
-import App from "./components/07_react/App";
+//import App from "./components/07_react/App";
 //07.1_react
-//import App from "./components/07_react/07.1_react/App";
+import App from "./components/07_react/07.1_react/App";
 
 import "./index.css";
 

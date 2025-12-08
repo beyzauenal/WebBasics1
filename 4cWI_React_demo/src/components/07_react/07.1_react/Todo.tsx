@@ -13,7 +13,8 @@ export default function Todo({ title, completed }: Props) {
       }`}
     >
       <div>{title}</div>
-      <div>{completed ? "●" : ""}</div>
+      <div>{completed }</div>
     </div>
   );
 }
+
