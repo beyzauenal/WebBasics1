@@ -20,10 +20,10 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <h1>Todos</h1>
-
-      <div className="grid grid-cols-1 gap-2">
+    <div className="">
+      <h1 className="">Todos</h1>
+      test  
+      <div className="grid grid-cols-4 gap-2">
         {todos.map((todo: TodoItem) => (
           <Todo
             key={todo.id}
