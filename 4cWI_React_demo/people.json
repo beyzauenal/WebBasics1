@@ -1,0 +1,35 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Beyza Ünal",
+      "age": 18,
+      "city": "Lustenau"
+    },
+    {
+      "id": 2,
+      "name": "Ela Balkaya",
+      "age": 18,
+      "city": "Lustenau"
+    },
+    {
+      "id": 3,
+      "name": "Aylin Sahin",
+      "age": 17,
+      "city": "Kennelbach"
+    },
+    {
+      "id": 4,
+      "name": "Jonas Weber",
+      "age": 18,
+      "city": "Feldkirch"
+    },
+    {
+      "id": 5,
+      "name": " Sumy Kavas",
+      "age": 20,
+      "city": "Lustenau"
+    }
+  ]
+}
+
