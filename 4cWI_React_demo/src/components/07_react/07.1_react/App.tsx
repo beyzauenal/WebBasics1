@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="">
       <h1 className="">Todos</h1>
-
+ 
       <div className="grid grid-cols-4 gap-2">
         {todos.map((todo) => (
           <Todo
