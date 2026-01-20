@@ -14,6 +14,8 @@ import ReactDOM from "react-dom/client";
 //import App from "./components/PG_react/App";
 //08_react
 import App from "./components/08_react/App";
+//09_react
+//import App from "./components/09_react/App";
 
 import "./index.css";
 
