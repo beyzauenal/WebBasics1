@@ -4,6 +4,6 @@ type Props = {}
 
 export default function Button({}: Props) {
   return (
-    <div>Button</div>
+    <div>Super</div>
   )
 }
