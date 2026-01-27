@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 //05_react
 //import App from "./components/05_react/App";
 //06_react
@@ -13,17 +14,17 @@ import ReactDOM from "react-dom/client";
 //PG_react
 //import App from "./components/PG_react/App";
 //08_react
-import App from "./components/08_react/App";
+//import App from "./components/08_react/App";
 //09_react
-//import App from "./components/09_react/App";
+import App from "./components/09_react/App";
 
 import "./index.css";
 
-ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
