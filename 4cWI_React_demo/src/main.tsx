@@ -1,3 +1,4 @@
+import "./firebase";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
@@ -16,9 +17,10 @@ import { BrowserRouter } from "react-router-dom";
 //08_react
 //import App from "./components/08_react/App";
 //09_react
-import App from "./components/09_react/App";
+//import App from "./components/09_react/App";
 
 import "./index.css";
+import App from "./components/10_firebase/App";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
