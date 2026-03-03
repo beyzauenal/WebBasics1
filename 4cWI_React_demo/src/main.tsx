@@ -18,9 +18,13 @@ import { BrowserRouter } from "react-router-dom";
 //import App from "./components/08_react/App";
 //09_react
 //import App from "./components/09_react/App";
+//10_firebase
+//import App from "./components/10_firebase/App";
+//PROJEKT_Autix
+import App from "./components/PROJEKT_Autix/App";
 
 import "./index.css";
-import App from "./components/10_firebase/App";
+
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
